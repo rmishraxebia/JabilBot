@@ -1,0 +1,18 @@
+{
+  "name": "jabilbot",
+  "version": "1.0.0",
+  "description": "Jabil Hackathon at USF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.5.3",
+    "botbuilder-calling": "^3.0.1",
+    "markdown-it": "^8.2.2",
+    "marked": "^0.3.6",
+    "restify": "^4.3.0"
+  }
+}

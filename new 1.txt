@@ -1,0 +1,27 @@
+
+bot.dialog('/', function (session, res) {
+    session.send("Hello! How can I help you?");
+	 
+	 //      var msg = new builder.Message(session)
+     //       .attachments([{
+    //            contentType: "image/jpeg",
+    //            contentUrl: "http://www.theoldrobots.com/images62/Bender-18.JPG"
+    //        }]);
+   //     session.endDialog(msg);
+ 
+	var marked = require('marked');
+ 
+	session.send('I am using __markdown__.'+	'[bing](http://bing.com)');
+	
+	 var fs = require("fs");
+	console.log("\n *STARTING* \n");
+	// Get content from file
+	var contents = fs.readFileSync("data.json");
+	// Define to JSON type
+	var jsonContent = JSON.parse(contents);
+	// Get Value from JSON
+	console.log("User Name:", jsonContent.Customer_Name);
+	session.send(jsonContent.Customer_Name);
+
+	 
+});
