@@ -1,8 +1,45 @@
 {
-"Customer_Name": "Anurag Singh",
-"Customer_ID": "C1001"
-}
+		"Customer_Name": "XYAnurag Singh",
+		"Customer_ID": "C1001",
+		"Orders": {
+			"Order_ID": "O1234",
+			"Order_Name": "HP",
+			"Shipping_Date": "2017-01-10T22:00:00Z",
+			"Status": "Delivered",
+			"Supervisor": {
+				"Name": "Syed",
+				"Contact": "8139986825"
+			},
+			"Products": [{
+				"Product_Name": "Laptop",
+				"WIP_Phase": 4,
+				"Order_Line": 1,
+				"WIP_Status": "Completed"
+			}, {
+				"Product_Name": "Mouse",
+				"WIP_Phase": 4,
+				"Order_Line": 1,
+				"WIP_Status": "Delayed"
+			},{
+					"Product_Name": "DVD Player",
+					"WIP_Phase": 4,
+					"Order_Line": 1,
+					"WIP_Status": "Completed"
+				},
 
+				{
+					"Product_Name": "Television",
+					"WIP_Phase": 4,
+					"Order_Line": 1,
+					"WIP_Status": "Completed"
+				},
 
+				{
+					"Product_Name": "Speakers",
+					"WIP_Phase": 4,
+					"Order_Line": 1,
+					"WIP_Status": "Completed"
+				}]
 
-           
+		}
+	}
